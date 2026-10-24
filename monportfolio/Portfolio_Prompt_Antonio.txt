@@ -1,0 +1,119 @@
+# SYSTEM PROMPT: Full-Stack Developer Portfolio Website Generation
+
+You are an expert UI/UX designer and senior frontend developer. Create a modern, high-converting, aesthetic, and fully responsive developer portfolio website based on the following detailed specifications and personal profile.
+
+---
+
+## 👤 PERSONAL PROFILE & CV DATA
+
+* **Full Name:** RANDRIANTSOA Tokiniaina Antonio
+* **Title / Role:** Web Developer / IT Specialist (Front-End & Back-End)
+* **Location:** Antananarivo, Madagascar (Antohomadinika)
+* **Contact Details:**
+  * Phone: +261 34 78 103 79
+  * Email: rdtokyantonio@gmail.com
+  * GitHub / LinkedIn: (Include sleek placeholder social links)
+* **Education:**
+  * **D.T.S en Informatique** - Université AKAMASOA (U.S.V.P.A) [2024]
+  * **Informatique Bureautique** - Etoile de l'Avenir [2021]
+  * **Baccalauréat Série D** - Lycée Saint Louis Fikirizana Isotry [2021]
+* **Languages:**
+  * Malagasy (Native)
+  * French (Fluent / Spoken, Written, Read)
+  * English (Intermediate / Written, Read)
+
+---
+
+## 🛠️ TECHNICAL STACK & SKILLS
+
+* **Front-End Development:** HTML5, CSS3, JavaScript (ES6+), Bootstrap, jQuery
+* **Back-End Development:** PHP
+* **Databases:** MySQL
+* **IT & Hardware Maintenance:** Systems Configuration, Hardware Diagnostics, Network Installation, Android & iOS Management
+* **Office & Productivity:** MS Word, Excel, Access, High-Speed Touch Typing (Dactylographie dix doigts)
+* **Soft Skills:** Decision Making, Active Listening, Team Building & Collaboration
+
+---
+
+## 💼 PROFESSIONAL EXPERIENCE
+
+1. **ONG Ainga Tsara** *(Mai 2025 – Septembre 2025)*
+   * **Role:** Volunteer Teacher (English & French for 6th - 4th grade students)
+   * **Key Achievements:** Community engagement, communication, leadership, educational support.
+
+2. **Accès Banque** *(Septembre 2024 – Février 2025)*
+   * **Role:** Financial Services Advisor (Conseiller en service financier)
+   * **Key Achievements:** Client onboarding, financial advisory, streamlining pre-banking processes, customer relationship management.
+
+3. **M.T.E.FO.P (Ministère)** *(Février 2024 – Juillet 2024)*
+   * **Role:** IT Service Department - Web Developer Intern & Network Tech
+   * **Key Achievements:** Network configuration & installation, hardware/software maintenance, web application development.
+
+4. **Croix-Rouge Malagasy** *(Octobre 2022 – Mars 2023)*
+   * **Role:** Field Volunteer / Digitalization Lead
+   * **Key Achievements:** On-field data digitalization, management of shelter/accommodation database systems during emergency relief.
+
+---
+
+## 🎨 DESIGN SYSTEM & UX GUIDELINES
+
+1. **Theme & Style:**
+   * Modern Dark Mode by default with sleek glassmorphism card accents.
+   * Color Palette: Deep Slate (`#0f172a`), Subtle Cyan Accent (`#06b6d4`), Emerald Green for highlights (`#10b981`), Crisp White text (`#f8fafc`).
+   * Typography: Inter or Poppins for clean modern UI readability. Font sizes optimized for hierarchy.
+
+2. **UX & Layout Rules:**
+   * Fully responsive across Mobile, Tablet, and Desktop.
+   * Sticky Blur Navigation Bar with quick links: `Home`, `About`, `Skills`, `Projects`, `Experience`, `Contact`.
+   * Dynamic CTA buttons with smooth hover animations.
+   * Seamless multi-language toggle (EN / FR).
+
+---
+
+## 🌐 SITE STRUCTURE & SECTIONS
+
+### 1️⃣ Hero Section
+* **Headline:** "Hi, I'm RANDRIANTSOA Tokiniaina Antonio 👋"
+* **Sub-headline:** "Web Developer & IT Specialist based in Antananarivo, Madagascar."
+* **Short Tagline:** "Crafting efficient web solutions, database management, and robust IT infrastructure."
+* **CTAs:**
+  * Primary Button: `Hire Me / Contact` (scrolls to Contact section)
+  * Secondary Button: `Download CV` (PDF link trigger)
+  * Graphic Element: High-tech developer portrait avatar or interactive terminal card showing code snippet.
+
+### 2️⃣ About Me Section
+* **Story:** Detail Antonio's journey from obtaining his D.T.S in Computer Science at U.S.V.P.A to impactful field work with Croix-Rouge Malagasy and technical roles at M.T.E.FO.P.
+* **Core Values & Interests:** Web Development, Community Volunteering, Football, Tech & Gaming.
+
+### 3️⃣ Skills Section (Categorized Badges & Progress Indicators)
+* **Web & Software:** HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, jQuery.
+* **Systems & Networks:** Network Installation, Hardware Maintenance, Android/iOS Support.
+* **Soft Skills:** Active Listening, Team Building, Strategic Problem Solving.
+
+### 4️⃣ Featured Projects
+Provide 3 clean interactive project cards:
+1. **Ministère M.T.E.FO.P Web Portal & Management System**
+   * *Tech:* PHP, MySQL, Bootstrap, JavaScript.
+   * *Desc:* Internal workflow automation and IT hardware tracking system.
+2. **Croix-Rouge Field Digitalization Dashboard**
+   * *Tech:* HTML5, CSS3, JS, Mobile Data Collection.
+   * *Desc:* Real-time shelter and volunteer response tracker during field operations.
+3. **Financial Services Client Portal Concept**
+   * *Tech:* PHP, MySQL, jQuery, Responsive UI.
+   * *Desc:* Interactive web calculator and pre-banking inquiry system inspired by financial advisory experience.
+
+### 5️⃣ Experience Timeline
+* Interactive vertical timeline showcasing M.T.E.FO.P, Accès Banque, ONG Ainga Tsara, and Croix-Rouge Malagasy with bullet points of key outcomes.
+
+### 6️⃣ Education & Certifications
+* Clean modern cards for U.S.V.P.A (D.T.S), Etoile de l'Avenir, and Baccalauréat.
+
+### 7️⃣ Contact Section & Footer
+* Interactive form (Name, Email, Subject, Message).
+* Direct Contact Info: Phone (`+261 34 78 103 79`), Email (`rdtokyantonio@gmail.com`), Location (`Antananarivo, Madagascar`).
+* Copyright notice & social links.
+
+---
+
+## 💻 CODE GENERATION INSTRUCTIONS
+Generate a single-file production-ready HTML5 page with Tailwind CSS (via CDN) and inline Lucide/FontAwesome icons, including clean JavaScript for smooth scrolling, interactive contact modal, and mobile menu toggles.

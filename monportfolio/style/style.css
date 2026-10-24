@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 70px;
+    margin: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: none;
+    border-radius: 5vh;
+}
+
+header .logo img{
+    height: 45px;
+    padding: 0 8px;
+    margin-left: 10px;
+}
+
+header .nav .menu{
+    display: flex;
+    margin-right: 25px;
+}
+
+header .nav .menu li{
+    padding: 10px 15px;
+    width: 120px;
+    margin-left: 5px;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    color: #6a11cd;
+}
+
+header .nav .menu li:hover{
+    background: linear-gradient(135deg, #6a11cd, #2575fc);
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+header .nav .menu li a{
+    text-decoration: none;
+    color: #6a11cd;
+}
+
+header .nav .menu li:hover a{
+    color: #fff;
+    cursor: pointer;
+}
+
+/* vita ny header, hiditra amin'ny body izao */
+
+.accueil{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+}
+
+.accueil section{
+    width: 50%;
+    padding: 60px 160px;
+}
+
+.accueil section h1{
+    font-size: 4em;
+}
+
+.accueil section h1 #nomcomplet{
+    background-image: linear-gradient(45deg, #7600fd, #0148c2);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.accueil section h2{
+    font-size: 2em;
+    font-weight: bold;
+    background-image: linear-gradient(135deg, #d44401, #d3f704);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+}
+
+.accueil section p{
+    font-weight: bold;
+}
+
+.accueil section .projet-cv button{
+    width: 180px;
+    height: 50px;
+    margin: 50px 25px;
+    border-radius: 10px;
+}
+
+.accueil section .projet-cv #projet{
+    background-color: #6a11cd;
+    border: 2px solid #6a11cd;
+    font-weight: bold;
+    color: #fff;
+}
+
+.accueil section .projet-cv #projet:hover{
+    background-color: #fff;
+    border: 2px solid #6a11cd;
+    font-weight: bold;
+    color: #6a11cd;
+}
+
+.accueil section .projet-cv #cv{
+    background-color: #fff;
+    border: 2px solid #6a11cd;
+    font-weight: bold;
+    color: #6a11cd;
+}
+
+.accueil section .projet-cv #cv:hover{
+    background-color: #6a11cd;
+    border: 2px solid #6a11cd;
+    font-weight: bold;
+    color: #fff;
+}
+
+.accueil aside{
+    width: 50%;
+}
+
+.accueil aside img{
+    margin-top: 40px;
+    padding: 20px;
+    width: 85%;
+}
+
+.accueil section .social{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.accueil section .social img{
+    width: 40px;
+    height: 40px;
+}
+
+/* tapitre teo ny accueil fa miditra apropos izao */
+
+.apropos{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #6a11cd, #2575fc);
+    display: flex;
+    color: #fff;
+}
+
+.apropos span{
+    color: rgb(255, 115, 0);
+}
+
+.apropos section{
+    width: 50%;
+    background-size: cover;
+    padding: 50px 120px;
+    font-size: larger;
+}
+
+.apropos section h1{
+    font-weight: bold;
+    font-size: 4em;
+    text-decoration: underline;
+}
+
+.apropos section .about{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apropos section .about .source{
+    display: flex;
+    margin-left: 30px;
+}
+
+.apropos section .about .source img{
+    width: 50px;
+}
+
+.apropos section .logo{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apropos section .logo img{
+    width: 100px;
+}
+    
+.apropos aside{
+    padding: 50px 0;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.apropos aside img{
+    border-radius: 20px;
+}
